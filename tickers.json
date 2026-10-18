@@ -1,0 +1,33 @@
+{
+  "tickers": [
+    "NVDA", "AMD", "AVGO", "QCOM", "ARM", "MRVL", "MU", "WDC", "STX", "RMBS",
+    "TSM", "INTC", "ASML", "AMAT", "LRCX", "KLAC", "ENTG", "TER", "GFS", "UMC",
+    "TXN", "ADI", "NXPI", "MCHP", "ON", "MPWR", "SWKS", "QRVO", "STM", "WOLF",
+    "LSCC", "NVMI", "CAMT", "COHU", "KLIC", "FORM", "ACLS", "SIMO", "DIOD", "ALGM",
+    "POWI", "SLAB", "SMTC", "CREE", "ASMI", "ONTO", "AEIS", "ICHR", "RMBS", "RMBS",
+    "AAPL", "MSFT", "GOOGL", "AMZN", "META", "NFLX", "TSLA", "CRM", "ADBE", "ORCL",
+    "NOW", "SNOW", "PLTR", "CRWD", "PANW", "NET", "DDOG", "CSCO", "DELL", "HPE",
+    "PSTG", "ANET", "IBM", "HPQ", "ZS", "OKTA", "MDB", "TWLO", "HUBS", "U",
+    "DOCU", "TEAM", "PATH", "ROKU", "PINS", "SNAP", "SHOP", "SQ", "UBER", "DASH",
+    "ABNB", "Z", "RDFN", "ESTC", "DT", "PCTY", "PAYC", "MANH", "ADSK", "TEAM",
+    "INTU", "SNPS", "CDNS", "ANSS", "PTC", "KEYS", "ZBRA", "AKAM", "GEN", "FYBR",
+    "LUMN", "VIAV", "CIEN", "COMM", "EXTR", "NTAP", "PSTG", "SMCI", "WDC", "STX",
+    "JPM", "BAC", "WFC", "C", "GS", "MS", "V", "MA", "PYPL", "AXP",
+    "BLK", "SCHW", "BRK-B", "PGR", "USB", "TFC", "PNC", "COF", "AIG", "MET",
+    "PRU", "TRV", "ALL", "HIG", "AFL", "CB", "MMC", "AON", "BK", "STT",
+    "NTRS", "COIN", "HOOD", "SOFI", "AFRM", "UPST", "SYF", "DFS", "KEY", "RF",
+    "HBAN", "FITB", "CFG", "MTB", "ZION", "CMA", "WAL", "EWBC", "FRC", "SBNY",
+    "LLY", "UNH", "JNJ", "PFE", "MRK", "ABBV", "TMO", "DHR", "DXCM", "BSX",
+    "ABT", "ISRG", "AMGN", "GILD", "BMY", "CVS", "CI", "ELV", "HUM", "CNC",
+    "MDT", "SYK", "ZBH", "BAX", "BDX", "IDXX", "RMD", "ALGN", "EW", "COO",
+    "STE", "VRTX", "REGN", "BIIB", "ILMN", "PODD", "HOLX", "BAX", "WAT", "PKI",
+    "VAR", "INCY", "EXAS", "TECH", "MASI", "QGEN", "HQY", "CUTR", "ICUI", "NBIX",
+    "GE", "RTX", "LMT", "NOC", "GD", "CAT", "DE", "UNP", "UPS", "FDX",
+    "HON", "MMM", "ETN", "ITW", "PH", "CMI", "EMR", "ODFL", "NSC", "CSX",
+    "DAL", "UAL", "AAL", "LUV", "WM", "RSG", "FAST", "GWW", "URI", "CARR",
+    "OTIS", "JCI", "PCAR", "ROK", "DOV", "XYL", "IR", "SWK", "TDG", "HEI",
+    "TXT", "HWM", "AXON", "LHX", "LDOS", "SAIC", "CACI", "PWR", "FIX", "AGCO",
+    "CNH", "TEX", "OSK", "JBL", "FLR", "ACM", "KBR", "VMC", "MLM", "EXP",
+    "SLB", "HAL", "BKR", "OXY", "COP", "EOG", "PXD", "MPC", "PSX", "VLO"
+  ]
+}

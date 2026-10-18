@@ -1,0 +1,12 @@
+# Secrets
+.env
+
+# Databases
+Database/algorise.db
+
+# Machine Learning Models (Adding wildcards to catch all variants)
+*.pt
+*.pth
+Model/algorise_tft_weights.pth
+__pycache__/
+*.py[cod]
