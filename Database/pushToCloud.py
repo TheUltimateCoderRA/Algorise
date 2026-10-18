@@ -1,11 +1,17 @@
 import os
+import sys
 import shutil
 import zipfile
 from datetime import datetime
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from remoteLoader import ensure_algorise_db
+
 DB_PATH = os.path.join(os.path.dirname(__file__), 'algorise.db')
 BACKUP_DIR = os.path.join(os.path.dirname(__file__), 'backups')
 
 def push_to_cloud(db_path: str=DB_PATH) -> None:
+    db_path = ensure_algorise_db(db_path)
     if not os.path.exists(db_path):
         print(f'Database not found at {db_path}. Nothing to push/backup.')
         return

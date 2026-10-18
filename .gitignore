@@ -1,2 +1,5 @@
 .env
 Database/algorise.db
+algorise_tft_model.pt
+algorise_tft_weights.pth
+AGENTS.md

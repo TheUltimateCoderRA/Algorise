@@ -1,13 +1,17 @@
 import os
+import sys
 import sqlite3
 import pandas as pd
 import numpy as np
 import json
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from remoteLoader import ensure_algorise_db
+
 class DatabaseManager:
 
     def __init__(self, dbPath: str='Database/algorise.db') -> None:
-        self.dbPath = dbPath
+        self.dbPath = ensure_algorise_db(dbPath)
 
     def getconnection(self) -> sqlite3.Connection:
         return sqlite3.connect(self.dbPath)

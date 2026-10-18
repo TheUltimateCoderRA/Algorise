@@ -22,13 +22,17 @@ class CleanEncoderNormalizer(EncoderNormalizer):
         elif hasattr(values, 'detach'):
             values = values.detach().cpu().numpy()
         return super().fit(values, *args, **kwargs)
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from remoteLoader import ensure_algorise_db
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(name)s: %(message)s')
 logger = logging.getLogger(__name__)
 
 class AlgoriseDataLoader:
 
     def __init__(self, db_path: str='Database/algorise.db') -> None:
-        self.db_path = db_path
+        self.db_path = ensure_algorise_db(db_path)
 
     def _get_connection(self) -> sqlite3.Connection:
         if not os.path.exists(self.db_path):

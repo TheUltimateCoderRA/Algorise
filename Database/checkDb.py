@@ -1,10 +1,16 @@
 import os
+import sys
 import sqlite3
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from remoteLoader import ensure_algorise_db
+
 DB_PATH = os.path.join(os.path.dirname(__file__), 'algorise.db')
 
 def check_database(db_path: str=DB_PATH) -> None:
+    db_path = ensure_algorise_db(db_path)
     if not os.path.exists(db_path):
-        print(f'Database file not found at {db_path}. Please run createDb.py or runAll.py first.')
+        print(f'Database file not found at {db_path}. Please ensure ALGORISE_DB_URL is set in .env or run createDb.py.')
         return
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
